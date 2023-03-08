@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#error-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#error-page img {
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+    outline: none;
+}
+
+
